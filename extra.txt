@@ -1,0 +1,8 @@
+st.markdown("---")
+
+st.markdown("<h3 style='text-align: center; font-family:Courier_New; color: white;'>Choose asteroid type</h3>", unsafe_allow_html=True)
+#asteroid = st.select_slider("hello", [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], label_visibility = "hidden")
+st.write('<style>div.row-widget.stRadio > div{flex-direction:row;justify-content: center;} </style>', unsafe_allow_html=True)
+st.write('<style>div.st-bf{flex-direction:column;} div.st-ag{font-weight:bold;padding-left:2px;}</style>', unsafe_allow_html=True)
+
+choose=st.radio("asteroid type", [1, 2, 3, 4, 5], label_visibility = "hidden")
