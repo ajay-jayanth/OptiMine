@@ -15,7 +15,7 @@ We used Figma to layout and design our UI to have an idea of what we were coding
 Using the Pandas framework, we identified and purged the missing data and outliers in the provided dataset. As a result, we were able to organize and build upon a robust dataset using cutting-edge data preprocessing such as extrapolation. Further, by utilizing a dynamic data-frame that we grouped into numerous configurations based on drill-bit combinations and depth intervals. This consequently provided variable depth intervals for scalable analysis and deployment.
 
 #### Data Computation 
-To calculate the time between each subsequent intervals in the dataset, the change in depth was calculated and divided by the rate of penetration by the bit in use.  The cost is calculated through a cost function which is computed by a given cost function provided by EOG-resources. In order to compute the most efficient possible drilling plan at specific depth intervals, we utilized an efficient score function which is computed by linear neural network model. Each specific score value for each drill type was ranked lexicographically and compared with the top model in that interval. 
+To calculate the time between each subsequent intervals in the dataset, the change in depth was calculated and divided by the rate of penetration by the bit in use.  The cost is computed by a cost function provided by EOG-resources. In order to compute the most efficient possible drilling plan at specific depth intervals, we utilized an efficient score function which is computed by linear neural network model. Each specific score value for each drill type was ranked lexicographically and compared with the top model in that interval. 
 
 #### Data Analysis and Visualization
 
