@@ -24,7 +24,7 @@ pytorch, python, pandas, numpy, matplotlib, streamlit, sci-kit, figma
 ## Challenges we ran into
 ### Streamlit
 The rigidity of streamlit coupled with the difficulty of adding HTML and CSS elements to our code posed a great challenge for us. We were able to overcome this by coming up with creative solutions.
-###Understanding the given information
+### Understanding the given information
 Due to the complexity of the dataset, it took us some time to figure how we were going to use it effectively. We were able to remove junk values, such as, negative weight and NaN. After thorough understanding of what the problem was and how we could utilize the dataset effectively, we were able to overcome this challenge by creating our scoring calculator to rank the drill bits.
 
 ## What we learned
